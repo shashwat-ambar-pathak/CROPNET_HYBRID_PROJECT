@@ -58,22 +58,36 @@ The goal is to empower farmers and researchers with an intelligent tool to detec
 git clone https://github.com/shashwat-ambar-pathak/cropnet-hybrid.git
 cd cropnet-hybrid
 
-2️⃣ Create Virtual Environment & Install Dependencies
+---
+
+### 2️⃣ Create Virtual Environment & Install Dependencies
+```bash
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 pip install -r requirements.txt
 
-3️⃣ Train the Model
+---
+
+### 3️⃣ Train the Model
+```bash
 python train.py
 
+---
+
 4️⃣ Run Backend (FastAPI)
+```bash
 uvicorn app.main:app --reload
 
+---
+
 5️⃣ Run Frontend (React)
+```bash
 cd frontend
 npm install
 npm start
+
+---
 
 🌍 Deployment
 
@@ -82,15 +96,21 @@ Model integrated with FastAPI + React
 Hosted via GitHub Pages / Render / Vercel (update link here)
 👉 Live Demo: Your Project Link
 
+---
+
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 
+---
+
 📜 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
+
+---
 
 👨‍💻 Author
 
