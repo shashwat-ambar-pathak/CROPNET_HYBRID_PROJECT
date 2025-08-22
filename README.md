@@ -54,7 +54,9 @@ The goal is to empower farmers and researchers with an intelligent tool to detec
 
 ## ⚡ How to Run Locally
 ### 1️⃣ Clone the Repository
+
 git clone https://github.com/shashwat-ambar-pathak/cropnet-hybrid.git
+
 cd cropnet-hybrid
 
 ---
@@ -62,8 +64,11 @@ cd cropnet-hybrid
 ### 2️⃣ Create Virtual Environment & Install Dependencies
 
 python -m venv venv
+
 source venv/bin/activate   # (Linux/Mac)
+
 venv\Scripts\activate      # (Windows)
+
 pip install -r requirements.txt
 
 ---
