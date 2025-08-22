@@ -54,14 +54,13 @@ The goal is to empower farmers and researchers with an intelligent tool to detec
 
 ## ⚡ How to Run Locally
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/shashwat-ambar-pathak/cropnet-hybrid.git
 cd cropnet-hybrid
 
 ---
 
 ### 2️⃣ Create Virtual Environment & Install Dependencies
-```bash
+
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
@@ -70,19 +69,16 @@ pip install -r requirements.txt
 ---
 
 ### 3️⃣ Train the Model
-```bash
 python train.py
 
 ---
 
-4️⃣ Run Backend (FastAPI)
-```bash
+### 4️⃣ Run Backend (FastAPI)
 uvicorn app.main:app --reload
 
 ---
 
-5️⃣ Run Frontend (React)
-```bash
+### 5️⃣ Run Frontend (React)
 cd frontend
 npm install
 npm start
